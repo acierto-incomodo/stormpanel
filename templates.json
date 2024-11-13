@@ -2,16 +2,262 @@
   "remark": "This file is only used for quick deployment.",
   "languages": [
     {
-      "label": "English",
-      "value": "en_us"
+      "label": "Español",
+      "value": "es_es"
     },
     {
-      "label": "简体中文",
-      "value": "zh_cn"
+      "label": "English",
+      "value": "en_us"
     }
   ],
   "packages": [
     {
+      "language": "es_es",
+      "description": "[Paper] Minecraft 1.20.2 Paper",
+      "title": "Minecraft 1.20.2",
+      "runtime": "Java 22",
+      "hardware": "RAM 4G+",
+      "size": "150MB",
+      "remark": "Incluye plugins basicos",
+      "targetLink": "https://cloud.alongw.cn/f/5XlSW/Paper-1.21.1.zip",
+      "author": "alongw.cn",
+      "setupInfo": {
+        "type": "minecraft/java",
+        "startCommand": "java -jar server.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Paper] Minecraft 1.20.1 Paper",
+      "title": "Minecraft 1.20.1",
+      "runtime": "Java 22",
+      "hardware": "RAM 4G+",
+      "size": "200MB",
+      "remark": "Incluye plugins basicos",
+      "targetLink": "https://cloud.alongw.cn/f/jwjsl/Paper-1.20.1-EN.zip",
+      "author": "alongw.cn",
+      "setupInfo": {
+        "type": "minecraft/java",
+        "startCommand": "java -jar server.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "Consejo: El comando de inicio predeterminado es \"sh ./run.sh\". Si necesita ejecutarlo en Windows, cambie el comando de inicio a \"start.bat\" después de la instalación.",
+      "title": "Forge 1.20.6 (Soporta Mods)",
+      "runtime": "Java 21+",
+      "hardware": "RAM 8G+",
+      "size": "7MB",
+      "remark": "Minecraft Forge",
+      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.0.8/forge-1.20.6-50.0.8-installer.jar",
+      "author": "minecraftforge.net",
+      "setupInfo": {
+        "type": "minecraft/java/forge",
+        "startCommand": "run ./run.bat",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar forge-1.20.6-50.0.8-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "Consejo: El comando de inicio predeterminado es \"sh ./run.sh\". Si necesita ejecutarlo en Windows, cambie el comando de inicio a \"start.bat\" después de la instalación.",
+      "title": "Forge 1.20.1 (Soporta Mods)",
+      "runtime": "Java 21+",
+      "hardware": "RAM 8G+",
+      "size": "7MB",
+      "remark": "Minecraft Forge",
+      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.32/forge-1.20.1-47.2.32-installer.jar",
+      "author": "minecraftforge.net",
+      "setupInfo": {
+        "type": "minecraft/java/forge",
+        "startCommand": "run ./run.bat",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar forge-1.20.1-47.2.32-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "Consejo: El comando de inicio predeterminado es \"sh ./run.sh\". Si necesita ejecutarlo en Windows, cambie el comando de inicio a \"start.bat\" después de la instalación.",
+      "title": "Forge 1.19.2 (Soporta Mods)",
+      "runtime": "Java 17+",
+      "hardware": "RAM 8G+",
+      "size": "7MB",
+      "remark": "Minecraft Forge",
+      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.3.13/forge-1.19.2-43.3.13-installer.jar",
+      "author": "minecraftforge.net",
+      "setupInfo": {
+        "type": "minecraft/java/forge",
+        "startCommand": "run ./run.bat",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar forge-1.19.2-43.3.13-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.14.4 Fabric",
+      "title": "Minecraft 1.14.4 con Fabric Loader",
+      "runtime": "Java 8+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.14.4 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.15.2 Fabric",
+      "title": "Minecraft 1.15.2 con Fabric Loader",
+      "runtime": "Java 8+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.15.2 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.16.5 Fabric",
+      "title": "Minecraft 1.16.5 con Fabric Loader",
+      "runtime": "Java 8+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.16.5 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.17.1 Fabric",
+      "title": "Minecraft 1.17.1 con Fabric Loader",
+      "runtime": "Java 16+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.17.1 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.18.2 Fabric",
+      "title": "Minecraft 1.18.2 con Fabric Loader",
+      "runtime": "Java 17+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.18.2 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.19.4 Fabric",
+      "title": "Minecraft 1.19.4 con Fabric Loader",
+      "runtime": "Java 17+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.19.4 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.20.6 Fabric",
+      "title": "Minecraft 1.20.6 con Fabric Loader",
+      "runtime": "Java 21+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.20.6 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "language": "es_es",
+      "description": "[Fabric] Minecraft 1.21.3 Fabric",
+      "title": "Minecraft 1.21.3 con Fabric Loader",
+      "runtime": "Java 21+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar",
+      "author": "fabricmc.net",
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -jar fabric-server-launch.jar -nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.21.3 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      },
+      {
       "language": "en_us",
       "description": "[Paper] Minecraft 1.20.2 Paper",
       "title": "Minecraft 1.20.2",
@@ -61,7 +307,7 @@
       "author": "minecraftforge.net",
       "setupInfo": {
         "type": "minecraft/java/forge",
-        "startCommand": "sh ./run.sh",
+        "startCommand": "run ./run.bat",
         "stopCommand": "stop",
         "updateCommand": "java -jar forge-1.20.6-50.0.8-installer.jar --installServer",
         "ie": "utf-8",
@@ -80,7 +326,7 @@
       "author": "minecraftforge.net",
       "setupInfo": {
         "type": "minecraft/java/forge",
-        "startCommand": "sh ./run.sh",
+        "startCommand": "run ./run.bat",
         "stopCommand": "stop",
         "updateCommand": "java -jar forge-1.20.1-47.2.32-installer.jar --installServer",
         "ie": "utf-8",
@@ -99,7 +345,7 @@
       "author": "minecraftforge.net",
       "setupInfo": {
         "type": "minecraft/java/forge",
-        "startCommand": "sh ./run.sh",
+        "startCommand": "run ./run.bat",
         "stopCommand": "stop",
         "updateCommand": "java -jar forge-1.19.2-43.3.13-installer.jar --installServer",
         "ie": "utf-8",
@@ -256,103 +502,7 @@
         "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.21.3 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
-      }
-    },
-
-    {
-      "language": "zh_cn",
-      "description": "[Paper] Minecraft 1.21.1 快速开服",
-      "title": "Minecraft 1.20.1",
-      "runtime": "Java 22",
-      "hardware": "RAM 4G+",
-      "size": "250MB",
-      "remark": "包含基础插件，萌新快速开服！低配机器专属！",
-      "targetLink": "https://cloud.alongw.cn/f/DzvHK/Paper-1.21.1-ZH.zip",
-      "author": "alongw.cn",
-      "setupInfo": {
-        "type": "minecraft/java",
-        "startCommand": "java -jar server.jar -nogui",
-        "stopCommand": "stop",
-        "updateCommand": "",
-        "ie": "utf-8",
-        "oe": "utf-8"
-      }
-    },
-    {
-      "language": "zh_cn",
-      "description": "[Paper] 中小型互通服推荐，1.20.4 版本，快速开服，包含ESS、锁箱子、操作回滚、领地商店等基础插件。",
-      "title": "Minecraft 1.20.4 (低配机器推荐)",
-      "runtime": "Java 17+",
-      "hardware": "RAM 6G+",
-      "size": "140MB",
-      "remark": "支持插件，最低 8GB 内存要求",
-      "targetLink": "https://url.alww.top/mcsm/paper1.20.4.zip",
-      "author": "alongw.cn",
-      "setupInfo": {
-        "type": "minecraft/java",
-        "startCommand": "java -jar server.jar -nogui",
-        "stopCommand": "stop",
-        "updateCommand": "",
-        "ie": "utf-8",
-        "oe": "utf-8"
-      }
-    },
-    {
-      "language": "zh_cn",
-      "description": "注意：默认的启动命令是 \"sh ./run.sh\"，如果需要在 Windows 上运行，请在安装后将命令修改为 \"start.bat\"",
-      "title": "Forge 1.20.1 Java 版 (支持模组)",
-      "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
-      "size": "7MB",
-      "remark": "Minecraft Forge",
-      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.32/forge-1.20.1-47.2.32-installer.jar",
-      "author": "minecraftforge.net",
-      "setupInfo": {
-        "type": "minecraft/java/forge",
-        "startCommand": "sh ./run.sh",
-        "stopCommand": "stop",
-        "updateCommand": "java -jar forge-1.20.1-47.2.32-installer.jar --installServer",
-        "ie": "utf-8",
-        "oe": "utf-8"
-      }
-    },
-    {
-      "language": "zh_cn",
-      "description": "注意：默认的启动命令是 \"sh ./run.sh\"，如果需要在 Windows 上运行，请在安装后将命令修改为 \"start.bat\"",
-      "title": "Forge 1.20.6 Java 版 (支持模组)",
-      "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
-      "size": "7MB",
-      "remark": "Minecraft Forge",
-      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.0.8/forge-1.20.6-50.0.8-installer.jar",
-      "author": "minecraftforge.net",
-      "setupInfo": {
-        "type": "minecraft/java/forge",
-        "startCommand": "sh ./run.sh",
-        "stopCommand": "stop",
-        "updateCommand": "java -jar forge-1.20.6-50.0.8-installer.jar --installServer",
-        "ie": "utf-8",
-        "oe": "utf-8"
-      }
-    },
-    {
-      "language": "zh_cn",
-      "description": "注意：默认的启动命令是 \"sh ./run.sh\"，如果需要在 Windows 上运行，请在安装后将命令修改为 \"start.bat\"",
-      "title": "Forge 1.19.2 Java 版 (支持模组)",
-      "runtime": "Java 17+",
-      "hardware": "RAM 8G+",
-      "size": "7MB",
-      "remark": "Minecraft Forge",
-      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.3.13/forge-1.19.2-43.3.13-installer.jar",
-      "author": "minecraftforge.net",
-      "setupInfo": {
-        "type": "minecraft/java/forge",
-        "startCommand": "sh ./run.sh",
-        "stopCommand": "stop",
-        "updateCommand": "java -jar forge-1.19.2-43.3.13-installer.jar --installServer",
-        "ie": "utf-8",
-        "oe": "utf-8"
-      }
+      },
     }
   ]
 }
