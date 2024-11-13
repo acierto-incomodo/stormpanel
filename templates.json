@@ -256,6 +256,7 @@
         "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.21.3 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
+      }
       },
       {
       "language": "en_us",
@@ -502,7 +503,7 @@
         "updateCommand": "java -jar fabric-installer-1.0.1.jar server -mcversion 1.21.3 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
-      },
+      }
     }
   ]
 }
