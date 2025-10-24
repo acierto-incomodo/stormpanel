@@ -1,5 +1,5 @@
 {
-  "remark": "This file is only used for quick deployment. v2",
+  "remark": "This file is only used for quick deployment. v3",
   "languages": [
     {
       "label": "Español",
@@ -20,6 +20,25 @@
       "size": "819MB",
       "remark": "Versión completa de MyJonCraft SGS Server v4.1.0 Release Halloween v2 Edition para iniciar directamente. Para usar en Linux hay que cambiar el comando de inicio a run.sh",
       "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition.zip",
+      "author": "StormGamesStudios",
+      "setupInfo": {
+        "type": "minecraft/java/forge",
+        "startCommand": "run.bat",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+{
+      "language": "es_es",
+      "description": MyJonCraft SGS Server v3.0.10 Release Edition",
+      "title": MyJonCraft SGS Server v3.0.10 Release Edition",
+      "runtime": "Java 17",
+      "hardware": "RAM 6G+",
+      "size": "552MB",
+      "remark": "Versión completa de MyJonCraft SGS Server v3.0.10 Release Edition para iniciar directamente. Para usar en Linux hay que cambiar el comando de inicio a run.sh",
+      "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/MyJonCraft-SGS-Server_v3.0.10_Release-Edition/MyJonCraft-SGS-Server_v3.0.10_Release-Edition.zip",
       "author": "StormGamesStudios",
       "setupInfo": {
         "type": "minecraft/java/forge",
@@ -284,8 +303,27 @@
       "runtime": "Java 17",
       "hardware": "RAM 6G+",
       "size": "819MB",
-      "remark": "Full version of MyJonCraft SGS Server v4.1.0 Release Halloween v2 Edition for immediate startup. For use on Linux, change the startup command to run.sh.",
+      "remark": "Full version of MyJonCraft SGS Server v4.1.0 Release Halloween v2 Edition for immediate startup. For use on Linux, change the startup command to run.sh",
       "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition.zip",
+      "author": "StormGamesStudios",
+      "setupInfo": {
+        "type": "minecraft/java/forge",
+        "startCommand": "run.bat",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+{
+      "language": "en_us",
+      "description": MyJonCraft SGS Server v3.0.10 Release Edition",
+      "title": MyJonCraft SGS Server v3.0.10 Release Edition",
+      "runtime": "Java 17",
+      "hardware": "RAM 6G+",
+      "size": "552MB",
+      "remark": ""Full version of MyJonCraft SGS Server v3.0.10 Release Edition for immediate startup. For use on Linux, change the startup command to run.sh",
+      "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/MyJonCraft-SGS-Server_v3.0.10_Release-Edition/MyJonCraft-SGS-Server_v3.0.10_Release-Edition.zip",
       "author": "StormGamesStudios",
       "setupInfo": {
         "type": "minecraft/java/forge",
