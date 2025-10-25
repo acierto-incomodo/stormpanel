@@ -1,5 +1,5 @@
 {
-  "remark": "This file is only used for quick deployment. v5",
+  "remark": "This file is only used for quick deployment. v6",
   "languages": [
     {
       "label": "Español",
@@ -19,7 +19,7 @@
       "hardware": "RAM 8G+",
       "size": "83.1MB",
       "remark": "Versión completa de Servidor MikelII Paper 1.19 para iniciar directamente. Para usar en Linux hay que cambiar el comando de inicio a run.sh",
-      "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition.zip",
+      "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/Servidor-MikelII_Paper-1.19/Servidor-MikelII_Paper-1.19.zip",
       "author": "StormGamesStudios",
       "setupInfo": {
         "type": "minecraft/java/paper",
@@ -342,7 +342,7 @@
       "hardware": "RAM 8G+",
       "size": "83.1MB",
       "remark": "Full version of MikelII Server Paper 1.19 for immediate startup. For use on Linux, change the startup command to run.sh",
-      "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition/MyJonCraft-SGS-Server_v4.1.0_Halloween-v2_Release-Edition.zip",
+      "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/Servidor-MikelII_Paper-1.19/Servidor-MikelII_Paper-1.19.zip",
       "author": "StormGamesStudios",
       "setupInfo": {
         "type": "minecraft/java/paper",
