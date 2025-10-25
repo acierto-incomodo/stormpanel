@@ -1,5 +1,5 @@
 {
-  "remark": "This file is only used for quick deployment. v10",
+  "remark": "This file is only used for quick deployment. v11",
   "languages": [
     {
       "label": "Español",
@@ -15,7 +15,7 @@
       "language": "es_es",
       "description": "BungeeCord Proxy Server",
       "title": "BungeeCord Proxy Server",
-      "runtime": "Java 17",
+      "runtime": "Java 8+",
       "hardware": "RAM 512MB+",
       "size": "22.34MB",
       "remark": "Versión completa de BungeeCord Proxy Server para iniciar directamente. Para usar en Linux hay que cambiar el comando de inicio a run.sh",
@@ -357,7 +357,7 @@
       "language": "en_us",
       "description": "BungeeCord Proxy Server",
       "title": "BungeeCord Proxy Server",
-      "runtime": "Java 17",
+      "runtime": "Java 8+",
       "hardware": "RAM 512MB+",
       "size": "22.34MB",
       "remark": "Full version of BungeeCord Proxy Server for immediate startup. For use on Linux, change the startup command to run.sh",
