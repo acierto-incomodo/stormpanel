@@ -1,5 +1,5 @@
 {
-  "remark": "This file is only used for quick deployment. v8",
+  "remark": "This file is only used for quick deployment. v",
   "languages": [
     {
       "label": "Español",
@@ -16,8 +16,8 @@
       "description": "BungeeCord Proxy Server",
       "title": "BungeeCord Proxy Server",
       "runtime": "Java 17",
-      "hardware": "RAM 8G+",
-      "size": "83.1MB",
+      "hardware": "RAM 512MB+",
+      "size": "22.3MB",
       "remark": "Versión completa de BungeeCord Proxy Server para iniciar directamente. Para usar en Linux hay que cambiar el comando de inicio a run.sh",
       "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/BungeeCord/BungeeCord.zip",
       "author": "StormGamesStudios",
@@ -358,8 +358,8 @@
       "description": "BungeeCord Proxy Server",
       "title": "BungeeCord Proxy Server",
       "runtime": "Java 17",
-      "hardware": "RAM 8G+",
-      "size": "83.1MB",
+      "hardware": "RAM 512MB+",
+      "size": "22.3MB",
       "remark": "Full version of BungeeCord Proxy Server for immediate startup. For use on Linux, change the startup command to run.sh",
       "targetLink": "https://github.com/acierto-incomodo/stormpanel/releases/download/BungeeCord/BungeeCord.zip",
       "author": "StormGamesStudios",
