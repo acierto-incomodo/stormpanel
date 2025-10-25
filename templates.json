@@ -1,5 +1,5 @@
 {
-  "remark": "This file is only used for quick deployment. v6",
+  "remark": "This file is only used for quick deployment. v7",
   "languages": [
     {
       "label": "Español",
@@ -44,7 +44,7 @@
         "type": "minecraft/java/forge",
         "startCommand": "run.bat",
         "stopCommand": "stop",
-        "updateCommand": "",
+        "updateCommand": "reinstall.bat",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -63,7 +63,7 @@
         "type": "minecraft/java/forge",
         "startCommand": "run.bat",
         "stopCommand": "stop",
-        "updateCommand": "",
+        "updateCommand": "reinstall.bat",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -82,7 +82,7 @@
         "type": "minecraft/java/forge",
         "startCommand": "run.bat",
         "stopCommand": "stop",
-        "updateCommand": "",
+        "updateCommand": "reinstall.bat",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -367,7 +367,7 @@
         "type": "minecraft/java/forge",
         "startCommand": "run.bat",
         "stopCommand": "stop",
-        "updateCommand": "",
+        "updateCommand": "reinstall.bat",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -386,7 +386,7 @@
         "type": "minecraft/java/forge",
         "startCommand": "run.bat",
         "stopCommand": "stop",
-        "updateCommand": "",
+        "updateCommand": "reinstall.bat",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -405,7 +405,7 @@
         "type": "minecraft/java/forge",
         "startCommand": "run.bat",
         "stopCommand": "stop",
-        "updateCommand": "",
+        "updateCommand": "reinstall.bat",
         "ie": "utf-8",
         "oe": "utf-8"
       }
